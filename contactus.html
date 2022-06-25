@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="photobooth, photostrip, memories, events">
+    <meta name="description" content="Life's Sweet Memories is a small, local photo business that has a goal to help you capture some of your life's most treasured moments.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life's Sweet Memories</title>
+    <!--Google Fonts, Dancing Script for title-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--navigation-->
+    <nav>
+        <div class="logo">
+            <img src="images/Logo.jpg" alt="my logo" width="80 px" height="70px">
+        </div>
+        
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="aboutus.html" class="active">About Us</a></li>
+            <li><a href="pricing.html" class="active">Pricing</a></li>
+            <li><a href="backgrounds.html" class="active">Backgrounds</a></li>
+            <li><a href="layouts.html" class="active">Layouts</a></li>
+            <li><a href="contactus.html" class="active">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!--contact us-->
+    <h1>Contact Us!</h1>
+    <h2>Please submit your information below and we will contact you as soon as we can.  Thank you!</h2>    
+    <main>
+        <form>
+            <label for="fname">First Name:</label>
+            <input name="fname" id="fname" type="text"><br>
+            <label for="lname">Last Name:</label>
+            <input name="lname" id="lname" type="text"><br>
+            <label for="email">Email:</label>
+            <input name="email" id="email" type="text"><br>
+            <label for="number">Phone Number:</label>
+            <input name="number" id="number" type="number"><br>
+        
+            <label for="background">Background:</label>
+            <select name="Backgrounds" id="backgrounds">
+                <option value="Beach-and-Sunset">Beach and Sunset</option>
+                <option value="Black">Black</option>
+                <option value="Gold">Gold</option>
+                <option value="Gold-and-Black">Gold and Black</option>
+                <option value="Leaves">Leaves</option>
+                <option value="Roses">Roses</option>
+                <option value="Silver">Silver</option>
+                <option value="White">White</option>
+                <option value="White-and-Roses">White and Roses</option>
+                <option value="Wood-and-Lights">Wood and Lights</option>
+                <option value="Wood-and-Roses">Wood and Roses</option>
+                <option value="Custom">Custom</option>
+                <option value="My-Own">I have my own.</option>
+            </select><br>
+
+            <label for="layout">Layout:</label>
+            <select name="Layouts" id="layouts">
+                <option value="Vertical">Vertical</option>
+                <option value="Horizontal">Horizontal</option>
+                <option value="Collage-Option-1">Collage Option 1</option>
+                <option value="Collage-Option-2">Collage Option 2</option>
+            </select><br>
+
+            <label for="message" class="message">Message/Notes:</label>
+            <textarea rows="5" columns="25"></textarea><br>
+            <label for="preference">Preferred Method of Communication:</label><br>
+            <label for="epreference">Email</label>
+            <input name="epreference" id="epreference" type="checkbox">
+            <label for="npreference">Number</label>
+            <input name="npreference" id="npreference" type="checkbox"><br>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+
+<!--footer-->
+<footer>
+    <div class="row">
+        <div class="logo-column">
+            <img src="images/Logo.jpg" alt="my-logo">
+        </div>
+        <div class="contact-column">
+            <br>
+            Contact Information:<br>
+            <a href="mailto:lifessweetmemories@gmail.com">lifessweetmemories@gmail.com</a> <br>
+            <a href="tel:559-666-3840">(555)559-666-3840</a>
+        </div>
+        <div class="social-media-column">
+            <br>
+            <a href="https:/www.facebook.com/lifessweetmemories"><i class="fa-brands fa-facebook">Facebook</i></a><br>
+            <a href="https:/www.instagram.com/lifessweetmemories"><i class="fa-brands fa-instagram icon">Instagram</i></a>
+        </div>
+    </div>
+    <div class="copy-row">
+        &copy; Copyright 2022
+    </div>
+</footer>
+
+</html>
